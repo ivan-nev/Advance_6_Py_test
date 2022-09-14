@@ -12,7 +12,7 @@ with open(r'E:\Py\PY_Advance\6_Function_Tests\token\tokenYa.txt', 'r', ) as file
 Ya = yadisk.YaDisk(token=tokenYA)
 
 #  Почему в-т ниже не видит путь при запуске test_Pytest?
-
+#
 # with open(path, 'r', ) as fileYA:
 #     tokenYA = fileYA.read()
 # Ya = yadisk.YaDisk(token=tokenYA)
